@@ -1,0 +1,11 @@
+node_modules/
+test-results/
+playwright-report/
+allure-results/
+allure-report/
+blob-report/
+playwright/.cache/
+.env
+
+QA_BEST_PRACTICES.md
+Install-playwright.md

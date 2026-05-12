@@ -1,0 +1,12 @@
+ID,Title,Steps,Expected Result
+TC-01,Search REST API,"1. Open redmine.org
+2. Enter 'REST API' in search box
+3. Press Enter",Search results contain links related to REST API
+TC-02,Project Navigation,"1. Click 'Projects' link
+2. Select 'Redmine' project from the list",Project overview page is displayed correctly
+TC-03,Registration Validation,"1. Click 'Register' link
+2. Leave fields empty and click 'Submit'","Error messages like 'Login can't be blank' are displayed"
+TC-04,Roadmap View,"1. Click 'Roadmap' in the top menu
+2. Observe the version list",Version progress bars and issues are visible
+TC-05,Download Section,"1. Click 'Download' link
+2. Check for latest stable release link",Links to download Redmine (SVN or Tarball) are present
